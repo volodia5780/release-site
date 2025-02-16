@@ -3,6 +3,41 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
+        .cart-container {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 250px;
+            background: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cart-container h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .cart-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .cart-container li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .cart-container button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+        .cart-container button:hover {
+            background: darkred;
+        }
         .header {
             font-size: 48px;
             font-weight: bold;
@@ -29,7 +64,7 @@
         p{
             font-size: 17px;
         }
-        .button {
+        .buy-button{
             font-family: cursive;
             font-size: 20px;
             display: block;
@@ -41,7 +76,7 @@
             cursor: pointer;
             transition: 0.7s ease-out;
         }
-        .button:hover{
+        .buy-button:hover{
             background-color: orange;
             border: 5px solid black;
             transition: 0.7s ease-out;
