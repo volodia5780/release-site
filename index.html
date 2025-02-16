@@ -4,51 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Shop</title>
-</head>
+    </head>
 <body>
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+    </div>
     <div class="header">🎮Game shop📦</div>
     <div class="search">
-    <input class='search-games' type='text' placeholder='Search for more games'>
+        <input class='search-games' type='text' placeholder='Search for more games'>
     </div>
-    
     <div class="game">
         <h3>GTA UA</h3>
         <img src="https://ukraine-gta.com.ua/images/main-img/logo.png" alt="GTA UA">
         <p>Free</p>
-        <button class="button">Buy</button>
+        <button class="buy-button" data-game="GTA UA" data-price="0">Buy</button>
     </div>
-    
     <div class="game">
         <h3>Need for Speed</h3>
         <img src="https://kuli.com.ua/images/thumbs/001/0010569_need-for-speed-most-wanted.jpeg" alt="Need for Speed">
         <p>50$</p>
-        <button class="button">Buy</button>
+        <button class="buy-button" data-game="Need for Speed" data-price="50">Buy</button>
     </div>
-    
     <div class="game">
         <h3>World of Tanks</h3>
         <img src="https://worldoftanks.eu/static/6.3.2_ee8aab/wotp_static/img/download_game/frontend/scss/img/sharing.jpg" alt="WoW">
         <p>Trial - Free</p>
-        <button class="button">Buy</button>
+        <button class="buy-button" data-game="World of Tanks" data-price="0">Buy</button>
     </div>
-    
     <div class="game">
         <h3>World of Warships</h3>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJ4VcFSbHHIMQ2iBTmqj-oEFIupBCWTpq2A&s" alt="WoT">
         <p>Trial - Free</p>
-        <button class="button">Buy</button>
+        <button class="buy-button" data-game="World of Warships" data-price="0">Buy</button>
     </div>
-    
     <div class="game">
         <h3>War Thunder</h3>
         <img src="https://warthunder.com/i/opengraph-wt.jpg" alt="War Thunder">
         <p>Full - 75$</p>
-        <button class="button">Buy</button>
+        <button class="buy-button" data-game="War Thunder" data-price="75">Buy</button>
     </div>
-    
     <footer><b>
         📞 Phone: +3808005553535
         📍 Address: Street: ##, Home: ##.
-    </footer>
+    </b></footer>
 </body>
 </html>
